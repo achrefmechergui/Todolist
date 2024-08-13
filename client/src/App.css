@@ -1,0 +1,51 @@
+
+h1{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+input{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+button{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.item {
+  margin-top: 100px;
+  display: flex; /* Use flexbox to arrange children in a row */
+  align-items: center; /* Align children vertically */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons {
+  margin-left: auto; /* Push icons to the end of the container */
+  margin-right: 700px;
+  text-align: center;
+}
+.text{
+  margin-left: 715px;
+
+  margin-right: auto;
+  text-align: center;
+}
+i{
+  cursor: pointer;
+}
